@@ -15,7 +15,8 @@ class Traveler {
       this.food -= 1;
     }
   }
-  generate() {
-    this.element = 1;
-  }
 }
+
+// generate() {
+//   this.element = 1;
+// }
