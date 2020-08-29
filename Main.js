@@ -7,11 +7,11 @@ const travelerFood = document.createElement("food");
 const travelerIsHealthy = document.createElement("ishealthy");
 const wagonPassengers = document.createElement("passengers");
 
-let wagon = new Wagon(2);
+//let wagon = new Wagon(2);
 // Create variables for three travelers
-let henrietta = new Traveler("Henrietta");
-let juan = new Traveler("Juan");
-let maude = new Traveler("Maude");
+// let henrietta = new Traveler("Henrietta");
+// let juan = new Traveler("Juan");
+// let maude = new Traveler("Maude");
 // console.log(
 //   `Wagon Seat Count?: ${wagon.getAvailableSeatCount()} – EXPECTED: 2. The wagon starts with 2 seats. We haven't added travelers to the wagon yet.`
 // );

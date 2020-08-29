@@ -14,10 +14,11 @@ class Hunter extends Traveler {
       this.food -= 2;
     }
   }
-  giveFood(traveler, numOfFoodUnits) {
-    if (this.food >= numberOfFoodUnits) {
-      this.food -= numberOfFoodUnits;
-      traveler.food += numberOfFoodUnits;
+  giveFood(traveler, giveFood) {
+    if (this.food >= giveFood) {
+      this.food -= giveFood;
+      traveler.food += giveFood;
     }
   }
 }
+//numberOfFoodUnits
